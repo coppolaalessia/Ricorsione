@@ -9,7 +9,9 @@ public class ReginePrimaSoluzione {
 
 	public List<Integer> cercaRegine(int N) {
 		this.soluzione = null ;
+		
 		List<Integer> parziale = new ArrayList<Integer>() ;
+		
 		regine_ricorsiva(parziale, 0, N);	
 		return this.soluzione;
 	}
