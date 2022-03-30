@@ -5,9 +5,11 @@ import java.util.List;
 public class TestRegine {
 
 	public static void main(String[] args) {
-		ReginePrimaSoluzione r = new ReginePrimaSoluzione() ;
-		List<Integer> soluzione = r.cercaRegine(15);
-		System.out.println(soluzione) ;
+		
+		ReginePrimaSoluzione r = new ReginePrimaSoluzione();
+		
+		List<Integer> soluzioni = r.cercaRegine(15);
+		System.out.println(soluzioni) ;
 	}
 
 }
